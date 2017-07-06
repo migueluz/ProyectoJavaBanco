@@ -43,17 +43,17 @@ public class Mail {
 		Transport transportador = null;
 
 		
-		//String servidor = "SRVEVS01.vcbu.dom";
-		String servidor = "correo.vcbu.dom";
+		//String servidor = "";
+		String servidor = "";
 		int puerto = 25;
-		//String user = "vcbu.dom\\rguerra";
-		String user = "ivrcheques@vcbu.dom";
-		//String password = "kumatotsuki@130286";
-		String password = "caicaguana6";
-		//String password = "$1vrcheques";
-		//String emisor = "leandro_naveda@oltpvoice.com.ve";
-		String emisor = "rguerra@venezolano.com";
-		//String emisor = "ivrcheques@vcbu.com";
+		//String user = "";
+		String user = "";
+		//String password = "";
+		String password = "";
+		//String password = "";
+		//String emisor = "";
+		String emisor = "";
+		//String emisor = "";
 		// String destinatario4 = "";
 
 		// Get System properties
@@ -190,9 +190,9 @@ public class Mail {
 			
 			
 			
-			String destinatario1 = "navedapetit@gmail.com";
-			//String destinatario1 = "rguerra@venezolano.com";
-			//String desitnatario1 = "yrodriguez@venezolano.com";
+			String destinatario1 = "";
+			//String destinatario1 = "";
+			//String desitnatario1 = "";
 			EmailModel valores = new EmailModel(); 
 			
 			
